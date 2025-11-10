@@ -1,0 +1,68 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter notebooks
+*.ipynb
+notebooks/
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# MLflow (exclude all except the specific model we're copying)
+mlruns/
+!mlruns/449370520553593410/models/m-ec29a6bdcfdd48a4846f878e7fea9d3e/
+
+# Data files (don't need raw data in container)
+data/raw/
+data/external/
+data/processed/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+!README.md
+docs/
+
+# Scripts (not needed in production)
+scripts/
+test_*.py
+app_local.py
+start_app.py
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile
+.dockerignore
+docker-compose.yml

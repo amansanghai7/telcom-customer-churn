@@ -1,0 +1,155 @@
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================================================
+# Jupyter Notebook
+# ============================================================================
+.ipynb_checkpoints
+*.ipynb
+notebooks/
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# OS Files
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================================
+# Project Specific - MLflow & Data
+# ============================================================================
+# MLflow tracking (keep only the specific model we need for Docker)
+mlruns/
+!mlruns/449370520553593410/
+!mlruns/449370520553593410/models/
+!mlruns/449370520553593410/models/m-ec29a6bdcfdd48a4846f878e7fea9d3e/
+!mlruns/449370520553593410/models/m-ec29a6bdcfdd48a4846f878e7fea9d3e/**
+
+# Artifacts (but keep the feature columns and preprocessing files)
+artifacts/
+!artifacts/feature_columns.json
+!artifacts/preprocessing.pkl
+
+# Data files (raw data is large, keep only processed if needed)
+data/raw/*.csv
+data/external/
+data/processed/*.csv
+
+# Keep data directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# ============================================================================
+# Logs and Temporary Files
+# ============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+
+# ============================================================================
+# Docker (optional - uncomment if you don't want to track these)
+# ============================================================================
+# .dockerignore
+# docker-compose.override.yml
+
+# ============================================================================
+# Environment Variables
+# ============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================================================
+# Model Files (if you want to exclude large model files)
+# ============================================================================
+# Uncomment if models are too large for git
+# *.pkl
+# *.h5
+# *.pt
+# *.pth
+# *.onnx
+
+# But keep specific small artifacts
+!artifacts/*.pkl
+!artifacts/*.json
