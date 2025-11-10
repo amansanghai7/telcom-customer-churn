@@ -14,7 +14,14 @@ Architecture:
 from fastapi import FastAPI
 from pydantic import BaseModel
 import gradio as gr
-from src.serving.inference import predict
+import os
+
+# Use local inference for non-Docker deployments (Render, etc.)
+# Use regular inference for Docker deployments
+if os.path.exists("/app/model"):
+    from src.serving.inference import predict
+else:
+    from src.serving.inference_local import predict
 
 # Initialize FastAPI application
 app = FastAPI(
