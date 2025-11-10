@@ -524,18 +524,6 @@ telcom-customer-churn/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -547,7 +535,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Aman Sanghai**
 
 - GitHub: [@amansanghai7](https://github.com/amansanghai7)
-- LinkedIn: [Connect with me](https://www.linkedin.com/in/aman-sanghai)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/aman-sanghai2003/)
 
 ---
 
@@ -557,15 +545,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - MLflow for experiment tracking
 - FastAPI and Gradio for serving frameworks
 - Render for free cloud hosting
-
----
-
-## 📞 Support
-
-If you have any questions or issues, please:
-1. Check the [documentation](QUICKSTART.md)
-2. Search [existing issues](https://github.com/amansanghai7/telcom-customer-churn/issues)
-3. Create a [new issue](https://github.com/amansanghai7/telcom-customer-churn/issues/new)
 
 ---
 
