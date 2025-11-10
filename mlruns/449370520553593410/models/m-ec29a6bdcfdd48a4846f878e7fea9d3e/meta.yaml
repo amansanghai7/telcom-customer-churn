@@ -1,0 +1,11 @@
+artifact_location: file:///E:/Data Field Study Material/Projects/Telecom Customer
+  Churn/mlruns/449370520553593410/models/m-ec29a6bdcfdd48a4846f878e7fea9d3e/artifacts
+creation_timestamp: 1762709664823
+experiment_id: '449370520553593410'
+last_updated_timestamp: 1762709672154
+model_id: m-ec29a6bdcfdd48a4846f878e7fea9d3e
+model_type: null
+name: model
+source_run_id: 89765bdd026e44738ee3436b3fa6dc99
+status: 2
+status_message: null
